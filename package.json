@@ -1,0 +1,22 @@
+{
+  "name": "geosys.viewer.3d",
+  "version": "0.1.0",
+  "description": "Field viewer 3D",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./demo/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "3D"
+  ],
+  "author": "Geosys",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
